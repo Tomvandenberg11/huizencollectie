@@ -1,0 +1,367 @@
+/*########## META  */
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'lora';
+	background-color: whitesmoke;
+}
+
+#wrap {
+	padding: 0;
+	margin: 0;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+
+/*########## HEADER  */
+
+header {
+	background-color: #3399FF;
+	box-shadow: 3px 3px 30px black;
+}
+
+#user {
+	max-width: 2.1em;
+	padding: .5em;
+	border-radius: 100px;
+	float: right;
+}
+
+#user:hover {
+	max-width: 2.3em;
+	/*    box-shadow: 3px 3px 20px white inset;*/
+}
+
+#shopicon:hover {
+	/*    box-shadow: 3px 3px 20px white inset;*/
+	max-width: 2.2em;
+}
+
+#shopicon {
+	float: right;
+	max-width: 2em;
+	padding: .5em;
+	border-radius: 30px;
+}
+
+#logo {
+	width: 10em;
+	margin: 0 auto;
+	display: block;
+}
+
+#logo img {
+	width: 10em;
+	height: 7.5em;
+}
+
+
+/*########## NAV  */
+
+nav {
+	background-color: dimgray;
+	height: 2.8em;
+	text-align: center;
+	margin-top: -1.4em;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	margin-left: -3%;
+}
+
+nav ul li {
+	margin: auto;
+	width: 13em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	float: left;
+	margin-left: 3%;
+	background-color: dimgray;
+	color: white;
+	padding: .5em;
+	box-shadow: 3px 3px 10px black;
+	font-weight: 300;
+	text-align: center;
+	margin-top: .3em;
+}
+
+nav ul li a:hover {
+	box-shadow: 3px 3px 30px white;
+	border-top: .3em solid whitesmoke;
+}
+
+h1 {
+	text-align: center;
+	color: darkslategray;
+	font-weight: 300;
+	margin-top: -.7em;
+	padding: 0;
+}
+
+h2 {
+	text-align: center;
+	color: darkslategray;
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: -.7em;
+	padding: 0;
+}
+
+
+/*
+#wrap {
+    height: 100em;
+}
+*/
+
+.overmij {
+	margin-top: 1.5em;
+}
+
+section {
+	width: 98%;
+	margin: auto;
+	margin-top: .5em;
+	border: 1px solid gray;
+	box-sizing: border-box;
+	box-shadow: 3px 3px 3px #aaa;
+	background-color: #fff;
+}
+
+section h3 {
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	background-color: dimgray;
+	margin-top: -.1em;
+	padding: .2em;
+}
+
+section p {
+	margin: auto;
+	margin-top: -.5em;
+	font-weight: 300;
+	font-size: .98em;
+	padding: .5em;
+	word-wrap: break-word;
+	font-family: 'lora';
+}
+
+.products {
+	width: 98%;
+	margin: auto;
+	text-align: center;
+	margin-top: 1em;
+	background-color: white;
+	border: 2px solid gray;
+	box-shadow: 3px 3px 10px gray;
+	height: auto;
+}
+
+.products h4 {
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	background-color: dimgrey;
+	margin-top: -.1em;
+	padding: .2em;
+	font-family: 'lora';
+}
+
+.product h5 {
+	color: white;
+	background-color: #3399FF;
+	font-weight: 300;
+	font-size: 1em;
+	box-shadow: 3px 3px 10px gray;
+}
+
+.product {
+	width: 20em;
+	margin: auto;
+	margin-top: -1em;
+}
+
+.product img {
+	max-width: 500px;
+	box-shadow: 3px 3px 50px gray;
+	border: 2px solid gray;
+}
+
+.login {
+	margin: auto;
+	margin-top: 3em;
+	width: 23em;
+}
+
+.velden {
+	float: right;
+	margin-right: 2em;
+}
+
+.buttons {
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+	margin-left: 6em;
+}
+
+.product p {
+	font-weight: 300;
+	padding: .3em;
+	word-wrap: break-word;
+	background-color: whitesmoke;
+	font-style: italic;
+}
+
+textarea {
+	width: 12.55em;
+	font-family: 'Lora';
+}
+
+.contact {
+	margin: auto;
+	margin-top: 3em;
+	width: 23em;
+	background-color: white;
+}
+
+.contact p {
+	margin-left: 1.5em;
+}
+
+.contact img {
+	display: block;
+	margin: 0 auto;
+	height: 300px;
+	width: 300px;
+}
+
+#submit {
+	margin-left: 100px;
+}
+
+footer {
+	height: 2em;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #3399FF;
+	opacity: .85;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+}
+
+
+/******TASSEN******/
+
+#display {
+	width: 15em;
+	height: 15em;
+	border: 2px solid #3399FF;
+	border-radius: 10px;
+}
+
+#displayHandtas {
+	width: 15em;
+	height: 10em;
+	border: 2px solid #3399FF;
+	border-radius: 10px;
+}
+
+#displaySchouder {
+	width: 15em;
+	height: 12em;
+	border: 2px solid #3399FF;
+	border-radius: 10px;
+}
+
+#controls {
+	width: 10.3em;
+	height: 5em;
+	box-sizing: border-box;
+	padding: 0px;
+	margin-top: 10%;
+	margin: 0 auto;
+}
+
+#controls img {
+	width: 5em;
+	height: 5em;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+#small {
+		width: 15em;
+		box-sizing: border-box;
+		margin: 0 auto;
+	}
+
+	#small #tumbs img {
+		width: 20%;
+		height: 3em;
+		display: inline;
+		margin: 0 auto;
+		margin-left: 15px;
+		box-sizing: border-box;
+		border-radius: 10% 10%;
+		box-shadow: 5px 5px 5px;
+	}
+	#small #tumbs img:hover {
+		cursor: pointer;
+	}
+
+#beschrijving p {
+	margin: 1em;
+}
+
+@media screen and (min-width: 772px) {
+	.product {
+		width: 20em;
+		float: left;
+		margin-left: 3.5em;
+	}
+	.products {
+		height: 69em;
+	}
+}
+
+@media screen and (min-width: 470px) {
+	section {
+		width: 26em;
+	}
+}
+
+@media screen and (min-width: 880px) {
+	.sec1 {
+		margin-top: 1.5em;
+		float: left;
+	}
+	main {
+		width: 54em;
+		margin: auto;
+	}
+	.overmij {
+		float: right;
+	}
+}
